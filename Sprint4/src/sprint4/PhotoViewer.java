@@ -85,22 +85,40 @@ public class PhotoViewer extends JFrame {
     /**
      * Button listener for the Next and Previous Buttons
      */
-    class NavigationListener {
+    class NavigationListener implements ActionListener {
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
         // TODO
-    }
+    }    
     
     /**
      * Button Listener for the Rating radio buttons
      */
-    class RatingChangeListener {
-        // TODO
+    class RatingChangeListener implements ActionListener {
+        
+    	@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+    	// TODO
     }
     
     /**
      * Button Listener for the Sort buttons
      */
-    class SortNavigationListener {
-        // TODO
+    class SortNavigationListener implements ActionListener {
+        
+    	@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+    	// TODO
     }
 
     /**
